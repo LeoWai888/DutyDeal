@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setting_page_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="130dp"
+    android:background="@drawable/writebg"
+    android:orientation="vertical"
+    android:visibility="gone"
+    tools:context=".Activity.HomeActivity"
+    tools:showIn="@layout/activity_home"
+    >
+
+    <RelativeLayout
+        android:layout_width="880dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="48dp"
+        >
+        <RadioGroup
+            android:id="@+id/main_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/main_radiobutton_area"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/activity_main_radiobutton_text_color"
+                android:textSize="25sp"
+                android:text="地区设置"
+                android:gravity="center"
+                android:checked="true"
+                android:button="@null"
+                android:background="@drawable/radio_group_selector"/>
+            <RadioButton
+                android:id="@+id/main_radiobutton_version"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/activity_main_radiobutton_text_color"
+                android:textSize="25sp"
+                android:text="版本更新"
+                android:gravity="center"
+                android:button="@null"
+                android:background="@drawable/radio_group_selector"/>
+            <RadioButton
+                android:id="@+id/main_radiobutton_camera"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/activity_main_radiobutton_text_color"
+                android:textSize="25sp"
+                android:text="相机设置"
+                android:gravity="center"
+                android:button="@null"
+                android:background="@drawable/radio_group_selector"/>
+        </RadioGroup>
+
+        <RelativeLayout
+            android:id="@+id/setting_detail"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/main_radiogroup"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/nice_spinner_detail_Rl"
+                android:layout_width="400dp"
+                android:layout_height="73dp"
+                android:layout_marginTop="15dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="#f40"
+                >
+
+                <org.angmarch.views.NiceSpinner
+                    android:id="@+id/nice_spinner_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_centerVertical="true"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    app:arrowTint="@color/colorPrimary"
+                    app:textTint="@color/colorAccent"
+                    tools:ignore="NotSibling" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/setting_updateVersion_btn"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="30dp"
+                android:layout_centerVertical="true"
+                android:textSize="30sp"
+                android:text="         版本升级"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/updatebtn"
+                android:visibility="gone"
+                tools:ignore="NotSibling" />
+            <Button
+                android:id="@+id/getConfiguration"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/setting_updateVersion_btn"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/updatebtn"
+                android:textSize="30sp"
+                android:text="         点击重启"
+                android:visibility="gone"
+                tools:ignore="NotSibling" />
+
+            <RelativeLayout
+                android:id="@+id/setting_camera_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/setting_camera_tx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="打开相机闪光灯"
+                    android:textColor="#000"
+                    android:textSize="28sp"
+                    />
+                <com.suke.widget.SwitchButton
+                    android:id="@+id/switch_button"
+                    android:layout_toRightOf="@+id/setting_camera_tx"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/setting_leave_btn"
+            android:layout_width="180dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/setting_detail"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+            android:textSize="30sp"
+            android:text="      退出"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/settingsure1"
+            tools:ignore="NotSibling" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

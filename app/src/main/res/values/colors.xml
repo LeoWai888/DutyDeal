@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="button_app_main_yes_text">#fff</color>
+    <color name="button_app_main_no_text">#000</color>
+    <color name="radiobutton_main_area_no">#000</color>
+    <color name="radiobutton_main_area_yes">#fff</color>
+
+    <color name="color_bg_selected">#e0301e</color>
+    <color name="color_bg_normal">#e7e7e8</color>
+</resources>

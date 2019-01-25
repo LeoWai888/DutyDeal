@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v3/values-v3.xml",
+            "map": [
+                {
+                    "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/values-v3/bh_common_styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "570"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "569"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/values-v3/values-v3.xml",
+            "map": [
+                {
+                    "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/values-v3/bh_common_styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "570"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "569"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bh_btn_back.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable-xxhdpi/bh_btn_back.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable-xxhdpi-v4/icon_user_no_face.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable-xxhdpi/icon_user_no_face.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable-xxhdpi-v4/icon_user_face.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable-xxhdpi/icon_user_face.png"
+    }
+]

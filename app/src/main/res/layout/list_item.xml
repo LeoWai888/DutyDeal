@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_rl"
+    android:layout_width="210dp"
+    android:layout_height="260dp"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:background="@drawable/shape_roundtan"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/registrar_img"
+        android:background="@drawable/bg_scanning"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/boy"
+        />
+
+    <TextView
+        android:id="@+id/content_tv"
+        android:layout_below="@+id/registrar_img"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:text="工小智"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_below="@+id/content_tv"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="00:00:00"
+
+        android:textSize="35sp" />
+
+</RelativeLayout>

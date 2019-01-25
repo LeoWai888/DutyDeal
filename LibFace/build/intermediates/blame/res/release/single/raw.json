@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/raw/notice_nod.mp3",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/raw/notice_nod.mp3"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/raw/notice_yaw.mp3",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/raw/notice_yaw.mp3"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/raw/notice_mouth.mp3",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/raw/notice_mouth.mp3"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/raw/notice_blink.mp3",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/raw/notice_blink.mp3"
+    }
+]

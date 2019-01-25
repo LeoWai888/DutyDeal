@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--系統參數加載等待-->
+  <item type="id" name="wait_state" />
+  <!-- 系統參數配置-->
+  <item type="id" name="config_state" />
+  <!--考勤值班结束-->
+  <item type="id" name="unDuty_state" />
+  <!--考勤值班开始-->
+  <!--无人考勤值班-->
+  <item type="id" name="NoneDuty_state"/>
+  <!--一人考勤值班-->
+  <item type="id" name="FristDuty_state"/>
+  <!--二人以上考勤值班-->
+  <item type="id" name="SecondDuty_state"/>
+  <item type="id" name="show_gif" />
+  <item type="id" name="hide_gif" />
+  <item name="before_sign" type="id" />
+  <item name="update_Version" type="id"/>
+</resources>

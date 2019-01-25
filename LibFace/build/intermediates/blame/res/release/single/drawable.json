@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/zou/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/70be062c1f71d79412003e0d597a1be7/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/motion_img_mouth.xml",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/motion_img_mouth.xml"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/motion_img_yaw.xml",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/motion_img_yaw.xml"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/motion_img_blink.xml",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/motion_img_blink.xml"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/img_mouth_1.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/img_mouth_1.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/zou/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/70be062c1f71d79412003e0d597a1be7/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/zou/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/70be062c1f71d79412003e0d597a1be7/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/img_blink_2.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/img_blink_2.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/img_nod_1.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/img_nod_1.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/img_yaw_2.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/img_yaw_2.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/motion_img_nod.xml",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/motion_img_nod.xml"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/img_yaw_3.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/img_yaw_3.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/img_yaw_1.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/img_yaw_1.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/zou/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/70be062c1f71d79412003e0d597a1be7/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/motion_motion_image.xml",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/motion_motion_image.xml"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/img_blink_1.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/img_blink_1.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/img_nod_2.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/img_nod_2.png"
+    },
+    {
+        "merged": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/build/intermediates/res/merged/release/drawable/img_mouth_2.png",
+        "source": "/Users/zou/AndroidStudioProjects/DutyDeal/LibFace/src/main/res/drawable/img_mouth_2.png"
+    }
+]

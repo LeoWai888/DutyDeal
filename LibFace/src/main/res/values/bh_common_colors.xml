@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_light_gray">#c8c8c8</color>
+    <color name="title_bg">#c8000a</color> <!-- 标题，红色背景 -->
+</resources>

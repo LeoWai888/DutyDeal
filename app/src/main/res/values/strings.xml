@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">活体检测</string>
+    <string name="register">注册</string>
+    <string name="search">搜索</string>
+    <string name="about">关于</string>
+    <string name="home_title">首页</string>
+    <string name="attestation">认证</string>
+    <string name="attestation_result">认证结果</string>
+    <string name="search_result">人脸搜索结果</string>
+    <string name="hacker_check">防攻击检测</string>
+    <string name="setting">设置</string>
+    <string name="blink">BLINK</string>
+    <string name="nod">NOD</string>
+    <string name="mouth">MOUTH</string>
+    <string name="yaw">YAW</string>
+    <string name="about_score">去评分</string>
+    <string name="about_version">版本 : </string>
+    <string name="about_product_presentation">产品介绍</string>
+    <string name="about_service_agreement">软件许可及服务协议</string>
+    <string name="about_copyright"></string>
+    <string name="about_copyright_info">copyright © 2015-2016</string>
+    <string name="description">产品介绍</string>
+    <string name="presentation_content">人脸检测在实际中主要用于人脸识别的处理，即在图像中准确标定出人脸的位置和大小。人脸图像中包含的模式特征十分丰富，如直方图特征、颜色特征、模板特征、结构特征及Haar特征等。人脸检测就是把这其中有用的信息挑出来，并利用这些特征实现人脸检测。人脸图像特征提取 : 人脸识别系统可使用的特征通常分为视觉特征、像素统计特征、人脸图像变换系数特征、人脸图像代数特征等。人脸特征提取就是针对人脸的某些特征进行的。人脸特征提取，也称人脸表征，它是对人脸进行特征建模的过程。</string>
+    <string name="skip">跳过</string>
+    <string name="input_id">用户标识</string>
+    <string name="loading">数据加载中……</string>
+    <string name="network_disabled">当前网络不可用，请检查你的网络设置。</string>
+</resources>

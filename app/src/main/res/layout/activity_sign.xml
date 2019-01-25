@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signInfo_ly"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="130dp"
+    android:background="@drawable/writebg1"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".Activity.HomeActivity"
+    tools:showIn="@layout/activity_home"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_list_view"
+        android:layout_width="850dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp">
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/tips_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--- 左右滑动 ---"
+        android:layout_below="@+id/recycle_list_view"
+        android:layout_marginTop="7dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="#ccc"
+        />
+
+    <RelativeLayout
+        android:id="@+id/before_sign_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/before_sign_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="尚未打卡倒计时"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/before_sign_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/before_sign_tv"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="40sp"
+            android:text="00:00:00"
+            android:textColor="#000" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/Tocamera"
+        android:layout_width="270dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:visibility="visible"
+        android:background="@drawable/actionbtn"
+        />
+
+</RelativeLayout>
